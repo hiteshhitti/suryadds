@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Surya ADDS</title>
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+  <style>
+  .overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 0;
+  }
+</style>
+</head>
+<body class="bg-white text-gray-800">
+  <header class="fixed w-full bg-white shadow z-50">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+      <div class="flex items-center">
+        <img src="./177.jpg" alt="Surya ADDS Logo" class="h-20 w-auto" />
+      </div>
+      <nav class="space-x-4">
+        <a href="#home" class="hover:text-orange-600">Home</a>
+        <a href="#about" class="hover:text-orange-600">About</a>
+        <a href="#services" class="hover:text-orange-600">Services</a>
+        <a href="#facilities" class="hover:text-orange-600">Facilities</a>
+        <a href="#why-us" class="hover:text-orange-600">Why Us</a>
+        <a href="#clients" class="hover:text-orange-600">Clients</a>
+        <a href="#contact" class="hover:text-orange-600">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="pt-20">
+    <!-- <section id="home" class="h-screen flex items-center justify-center bg-cover bg-center" style="background-image: url(./khara-woods-KR84RpMCb0w-unsplash.jpg);" data-aos="fade-up">
+      <div class="text-center">
+        <h1 class="text-4xl font-bold text-orange-600 mb-4">Branding Brilliance</h1>
+        <p class="mb-6 text-lg">Your Vision is Our Mission</p>
+        <a href="#services" class="bg-orange-600 text-white px-6 py-3 rounded-full shadow hover:bg-orange-700 transition">Explore Our Services</a>
+      </div>
+    </section> -->
+
+    <section class="relative h-screen flex items-center justify-center bg-cover bg-center" style="background-image: url('./khara-woods-KR84RpMCb0w-unsplash.jpg');">
+  <div class="overlay"></div>
+  <div class="relative z-10 text-center text-white">
+    <h1 class="text-4xl font-bold text-orange-400 mb-4 drop-shadow-lg">Branding Brilliance</h1>
+    <p class="mb-6 text-lg drop-shadow-md">Your Vision is Our Mission</p>
+    <a href="#services" class="bg-orange-600 text-white px-6 py-3 rounded-full shadow hover:bg-orange-700 transition">Explore Our Services</a>
+  </div>
+</section>
+
+
+<section id="about" class="py-16 px-6 bg-cover bg-center" style="background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(./jene-stephaniuk--MCrF6hnojU-unsplash.jpg);" data-aos="fade-right">
+  <div class="max-w-5xl mx-auto flex flex-col md:flex-row justify-between gap-8">
+    <div class="bg-gradient-to-r from-orange-370 via-purple-370 to-pink-370 p-8 shadow-lg border border-orange-200 rounded-xl">
+      <h2 class="text-4xl font-extrabold text-orange-600 mb-6 text-center">About Us</h2>
+      <p class="text-gray-700 leading-relaxed font-extrabold">Surya ADDS, a stalwart in the industry with a legacy spanning five decades. We specialize in <span class="text-orange-600 font-semibold">Signage production</span>, <span class="text-orange-600 font-semibold">in-shop branding</span>, outdoor signages, and dynamic development of display units.</p>
+      <p class="text-gray-700 leading-relaxed font-extrabold">Discover the epitome of advertising and marketing solutions at our production facility, where a diverse range of products awaits your exploration.</p>
+      <p class="text-gray-700 mb-6 leading-relaxed font-extrabold">Surya ADDS takes immense pride in providing a comprehensive suite of services tailored to the unique needs of our clients. Our areas of expertise encompass:</p>
+
+      <ul class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <li class="flex items-start gap-3 bg-white border border-orange-100 rounded-lg p-4 shadow-sm hover:shadow-md transition-transform hover:scale-[1.02]">
+          <span class="bg-orange-700 text-white px-2 py-1 rounded font-bold whitespace-nowrap">Signage Printing</span>
+          <span class="text-gray-700">Experience precision and vibrancy in every signage produced at our cutting-edge printing facility.</span>
+        </li>
+        <li class="flex items-start gap-3 bg-white border border-orange-100 rounded-lg p-4 shadow-sm hover:shadow-md transition-transform hover:scale-[1.02]">
+          <span class="bg-orange-700 text-white px-2 py-1 rounded font-bold whitespace-nowrap">Board Making</span>
+          <span class="text-gray-700">Meticulous craftsmanship where each signboard enhances your brand identity.</span>
+        </li>
+        <li class="flex items-start gap-3 bg-white border border-orange-100 rounded-lg p-4 shadow-sm hover:shadow-md transition-transform hover:scale-[1.02]">
+          <span class="bg-orange-700 text-white px-2 py-1 rounded font-bold whitespace-nowrap">In-shop Branding</span>
+          <span class="text-gray-700">Captivating branding solutions that elevate your retail space.</span>
+        </li>
+        <li class="flex items-start gap-3 bg-white border border-orange-100 rounded-lg p-4 shadow-sm hover:shadow-md transition-transform hover:scale-[1.02]">
+          <span class="bg-orange-700 text-white px-2 py-1 rounded font-bold whitespace-nowrap">Display Units</span>
+          <span class="text-gray-700">Showcase your brand story through engaging and dynamic displays.</span>
+        </li>
+        <li class="flex items-start gap-3 bg-white border border-orange-100 rounded-lg p-4 shadow-sm hover:shadow-md transition-transform hover:scale-[1.02] md:col-span-2">
+          <span class="bg-orange-700 text-white px-2 py-1 rounded font-bold whitespace-nowrap">Laser Unit</span>
+          <span class="text-gray-700">Cutting-edge laser tech ensures customized and precise promotional materials.</span>
+        </li>
+      </ul>
+    </div>
+    <div class="flex flex-col items-center justify-start space-y-6 shrink-0 ">
+      <img src="./owner1.png" alt="Person 1" class="w-45 h-110 rounded-full object-cover shadow-lg" />
+      <img src="./owner2.png" alt="Person 2" class="w-45 h-100 rounded-full object-cover shadow-lg" />
+    </div>
+  </div>
+</section>
+
+
+    <section id="services" class="py-16 px-6 bg-gray-50" data-aos="fade-up">
+      <div class="max-w-6xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-10">Our Services</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          
+          <div class="bg-white p-6 rounded shadow hover:shadow-lg transition flex items-center gap-6 max-w-xl mx-auto" data-aos="zoom-in" data-aos-delay="200">
+                <div class="w-1/2">
+                    <img src="./digital.png" alt="Graphic Design" class="rounded object-cover w-full w-48 h-48" />
+                </div>
+            <div class="w-1/2">
+              <h3 class="text-xl font-semibold mb-2">Printing Digital</h3>
+              <p>Transform your retail spaces with creative branding elements.</p>
+            </div>
+          </div>
+          <div class="bg-white p-6 rounded shadow hover:shadow-lg transition flex items-center gap-6 max-w-xl mx-auto" data-aos="zoom-in" data-aos-delay="200">
+                <div class="w-1/2">
+                    <img src="./store-branding.jpeg" alt="Graphic Design" class="rounded object-cover w-full w-48 h-48" />
+                </div>
+            <div class="w-1/2">
+              <h3 class="text-xl font-semibold mb-2">Graphic Design </h3>
+              <p>Transform your retail spaces with creative branding elements.</p>
+            </div>
+          </div>
+                    <div class="bg-white p-6 rounded shadow hover:shadow-lg transition flex items-center gap-6 max-w-xl mx-auto" data-aos="zoom-in" data-aos-delay="200">
+                <div class="w-1/2">
+                    <img src="./routercutting.jpeg" alt="Graphic Design" class="rounded object-cover w-full w-48 h-48" />
+                </div>
+            <div class="w-1/2">
+              <h3 class="text-xl font-semibold mb-2">Router Cutting</h3>
+              <p>Transform your retail spaces with creative branding elements.</p>
+            </div>
+          </div>
+                    <div class="bg-white p-6 rounded shadow hover:shadow-lg transition flex items-center gap-6 max-w-xl mx-auto" data-aos="zoom-in" data-aos-delay="200">
+                <div class="w-1/2">
+                    <img src="./safetysign.jpg" alt="Graphic Design" class="rounded object-cover w-full w-48 h-48" />
+                </div>
+            <div class="w-1/2">
+              <h3 class="text-xl font-semibold mb-2">Information Safety Signs</h3>
+              <p>Transform your retail spaces with creative branding elements.</p>
+            </div>
+          </div>
+                    <div class="bg-white p-6 rounded shadow hover:shadow-lg transition flex items-center gap-6 max-w-xl mx-auto" data-aos="zoom-in" data-aos-delay="200">
+                <div class="w-1/2">
+                    <img src="./outsign.jpg" alt="Graphic Design" class="rounded object-cover w-full w-48 h-48" />
+                </div>
+            <div class="w-1/2">
+              <h3 class="text-xl font-semibold mb-2">Outdoor Signage</h3>
+              <p>Transform your retail spaces with creative branding elements.</p>
+            </div>
+          </div>
+                    <div class="bg-white p-6 rounded shadow hover:shadow-lg transition flex items-center gap-6 max-w-xl mx-auto" data-aos="zoom-in" data-aos-delay="200">
+                <div class="w-1/2">
+                    <img src="./promotional.jpg" alt="Graphic Design" class="rounded object-cover w-full w-48 h-48" />
+                </div>
+            <div class="w-1/2">
+              <h3 class="text-xl font-semibold mb-2">Promotional Products</h3>
+              <p>Transform your retail spaces with creative branding elements.</p>
+            </div>
+          </div>
+                    <div class="bg-white p-6 rounded shadow hover:shadow-lg transition flex items-center gap-6 max-w-xl mx-auto" data-aos="zoom-in" data-aos-delay="200">
+                <div class="w-1/2">
+                    <img src="./lasercutting.jpg" alt="Graphic Design" class="rounded object-cover w-full w-48 h-48" />
+                </div>
+            <div class="w-1/2">
+              <h3 class="text-xl font-semibold mb-2">Laser Cutting</h3>
+              <p>Transform your retail spaces with creative branding elements.</p>
+            </div>
+          </div>
+                    <div class="bg-white p-6 rounded shadow hover:shadow-lg transition flex items-center gap-6 max-w-xl mx-auto" data-aos="zoom-in" data-aos-delay="200">
+                <div class="w-1/2">
+                    <img src="./channelbender_sxp.png" alt="Graphic Design" class="rounded object-cover w-full w-48 h-48" />
+                </div>
+            <div class="w-1/2">
+              <h3 class="text-xl font-semibold mb-2">Channel Bender</h3>
+              <p>Transform your retail spaces with creative branding elements.</p>
+            </div>
+          </div>
+                    <div class="bg-white p-6 rounded shadow hover:shadow-lg transition flex items-center gap-6 max-w-xl mx-auto" data-aos="zoom-in" data-aos-delay="200">
+                <div class="w-1/2">
+                    <img src="./g1.jpg" alt="Graphic Design" class="rounded object-cover w-full w-48 h-48" />
+                </div>
+            <div class="w-1/2">
+              <h3 class="text-xl font-semibold mb-2">Shop Signage</h3>
+              <p>Transform your retail spaces with creative branding elements.</p>
+            </div>
+          </div>
+                    <div class="bg-white p-6 rounded shadow hover:shadow-lg transition flex items-center gap-6 max-w-xl mx-auto" data-aos="zoom-in" data-aos-delay="200">
+                <div class="w-1/2">
+                    <img src="banner.jpg" alt="Graphic Design" class="rounded object-cover w-full w-48 h-48" />
+                </div>
+            <div class="w-1/2">
+              <h3 class="text-xl font-semibold mb-2">Customised Signage</h3>
+              <p>Transform your retail spaces with creative branding elements.</p>
+            </div>
+          </div>
+                    <div class="bg-white p-6 rounded shadow hover:shadow-lg transition flex items-center gap-6 max-w-xl mx-auto" data-aos="zoom-in" data-aos-delay="200">
+                <div class="w-1/2">
+                    <img src="./printed-gazebo-large.jpg" alt="Graphic Design" class="rounded object-cover w-full w-48 h-48" />
+                </div>
+            <div class="w-1/2">
+              <h3 class="text-xl font-semibold mb-2">Portable Display</h3>
+              <p>Transform your retail spaces with creative branding elements.</p>
+            </div>
+          </div>
+                    <div class="bg-white p-6 rounded shadow hover:shadow-lg transition flex items-center gap-6 max-w-xl mx-auto" data-aos="zoom-in" data-aos-delay="200">
+                <div class="w-1/2">
+                    <img src="./graphic design.jpeg" alt="Graphic Design" class="rounded object-cover w-full w-48 h-48" />
+                </div>
+            <div class="w-1/2">
+              <h3 class="text-xl font-semibold mb-2">Graphic Design </h3>
+              <p>Transform your retail spaces with creative branding elements.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Facilities -->
+    <section id="facilities" class="py-16 px-6 bg-white" data-aos="fade-left">
+      <div class="max-w-6xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-10">Our Facilities</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="bg-orange-50 p-6 rounded shadow" data-aos="fade-up">
+            <h4 class="font-semibold mb-2">HP LATEX 3200 BACK TO BACK PRINTING</h4>
+            <p> Do diverse, high-quality applications</p>
+            <div class="flex gap-4 mt-4 justify-center">
+            <img src="./printing.png" class="w-60 h-48 object-cover rounded shadow">
+            <img src="./printing2.png" class="w-60 h-48 object-cover rounded shadow">
+            </div>
+          </div>
+          <div class="bg-orange-50 p-6 rounded shadow" data-aos="fade-up" data-aos-delay="100">
+            <h4 class="font-semibold mb-2">HP LATEX 560 3RD GENERATION PRINTERS</h4>
+            <p>Do diverse, high-quality applications</p>
+            <div class="flex gap-4 mt-4 justify-center">
+            <img src="./printing3.png" class="w-60 h-48 object-cover rounded shadow">
+            <img src="./prinitng4.png" class="w-60 h-48 object-cover rounded shadow">
+            </div>
+          </div>
+          <div class="bg-orange-50 p-6 rounded shadow" data-aos="fade-up" data-aos-delay="200">
+            <h4 class="font-semibold mb-2">FUJIFILM ACQUITY EY UV FLATBED</h4>
+            <p>8/4 Ft UV Printing Machine </p>
+            <div class="flex gap-4 mt-4 justify-center">
+            <img src="./200.png" class="w-60 h-48 object-cover rounded shadow">
+            <img src="./201.png" class="w-60 h-48 object-cover rounded shadow">
+            </div>
+          </div>
+          <div class="bg-orange-50 p-6 rounded shadow" data-aos="fade-up" data-aos-delay="300">
+            <h4 class="font-semibold mb-2">SOLVENT PRINTING MACHINE</h4>
+            <p>_____________________</p>
+            <div class="flex gap-4 mt-4 justify-center">
+            <img src="./400.png" class="w-60 h-48 object-cover rounded shadow">
+            <img src="./401.png" class="w-60 h-48 object-cover rounded shadow">
+            </div>
+          </div>
+            <div class="bg-orange-50 p-6 rounded shadow" data-aos="fade-up" data-aos-delay="300">
+            <h4 class="font-semibold mb-2"> BENDER | ROUTER | CUTTER</h4>
+            <p>_____________________________</p>
+            <div class="flex gap-4 mt-4 justify-center">
+            <img src="./500.png" class="w-40 h-48 object-cover rounded shadow">
+            <img src="./501.png" class="w-40 h-48 object-cover rounded shadow">
+            <img src="./502.png" class="w-40 h-48 object-cover rounded shadow">
+            </div>
+          </div>
+            <div class="bg-orange-50 p-6 rounded shadow" data-aos="fade-up" data-aos-delay="300">
+            <h4 class="font-semibold mb-2"> VINYL LAMINATION & PLOTTER MACHINES</h4>
+            <p>______________________</p>
+            <div class="flex gap-4 mt-4 justify-center">
+            <img src="./600.png" class="w-60 h-48 object-cover rounded shadow">
+            <img src="./601.png" class="w-60 h-48 object-cover rounded shadow">
+            </div>
+          </div>
+            <div class="bg-orange-50 p-6 rounded shadow" data-aos="fade-up" data-aos-delay="300">
+            <h4 class="font-semibold mb-2"> FABRICATION UNIT | STORAGE</h4>
+            <p>_____________________</p>
+            <div class="flex gap-4 mt-4 justify-center">
+            <img src="./700.png" class="w-60 h-48 object-cover rounded shadow">
+            <img src="./701.png" class="w-60 h-48 object-cover rounded shadow">
+            </div>
+          </div>
+            <div class="bg-orange-50 p-6 rounded shadow" data-aos="fade-up" data-aos-delay="300">
+            <h4 class="font-semibold mb-2">FABRICATION UNIT | STORAGE</h4>
+            <p>_____________________</p>
+            <div class="flex gap-4 mt-4 justify-center">
+            <img src="./801.png" class="w-60 h-48 object-cover rounded shadow">
+            <img src="./800.png" class="w-60 h-48 object-cover rounded shadow">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<section id="single-facility" class="py-16 px-6 bg-white max-w-7xl mx-auto" >
+  <div class="bg-orange-50 p-6 rounded shadow text-center" data-aos="zoom-in">
+    <h4 class="font-extrabold text-3xl mb-2 text-orange-600">OUR INHOUSE TRANSPORTATION</h4>
+    <p>12 LARGE TRUCKS AND 6 SMALL TEMPOS WITH GPS IN THE FLEET </p>
+    <div class="mt-4 space-y-4 flex flex-col items-center">
+      <img src="./900.png" alt="HP Latex Printer 1" class="facility-image-vertica w-250 h-80 object-cover rounded shadowl" />
+      <img src="./901.png" alt="HP Latex Printer 2" class="facility-image-vertical w-150 h-40 object-cover rounded shadow" />
+    </div>
+  </div>
+</section>
+
+    <!-- Why Us -->
+    <section id="why-us" class="py-16 px-6 bg-gray-50" data-aos="fade-right">
+      <div class="max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-10">Why Choose Us</h2>
+        <ul class="space-y-4 text-left">
+          <li>✔️ Over 25000+ sqft. facility with advanced machines</li>
+          <li>✔️ 24x7 support and execution capabilities</li>
+          <li>✔️ Complete in-house production and transportation</li>
+          <li>✔️ Dedicated quality control and experienced team</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Clients -->
+    <section id="clients" class="py-16 px-6 bg-white" data-aos="fade-up">
+      <div class="max-w-6xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-10">Our Esteemed Clients</h2>
+        <p class="mb-6">We proudly serve leading brands across Food & Beverages, Telecom, Infrastructure, Electronics, and more.</p>
+        <div class="bg-gray-100 flex items-center justify-center min-h-screen p-6">
+          <div class="flex flex-wrap gap-6 justify-center items-center max-w-5xl w-full bg-white p-8 rounded-lg shadow-lg">
+            <img src="./coca.png" class="w-40 h-20">
+            <img src="./britannia.png" class="w-40 h-20">
+            <img src="./nestle.png" class="w-40 h-20">
+            <img src="./devans.jpeg" class="w-40 h-20">
+            <img src="./adiebrowson.jpg" class="w-40 h-20">
+            <img src="./realme.png" class="w-40 h-20">
+            <img src="./vi.png" class="w-40 h-20">
+            <img src="./vivo.png" class="w-40 h-20">
+            <img src="./oppo.png" class="w-40 h-20">
+            <img src="./realme.png" class="w-40 h-20">
+            <img src="./Tecno Mobile.png" class="w-40 h-20">
+            <img src="./infocom.png" class="w-40 h-20">
+            <img src="./mi.png" class="w-40 h-20">
+            <img src="./lg.png" class="w-40 h-20">
+            <img src="./daikin.png" class="w-40 h-20">
+            <img src="./loyd.png" class="w-40 h-20">
+            <img src="./mitsu.png" class="w-40 h-20">
+            <img src="./Voltas-01.png" class="w-40 h-20">
+            <img src="./havells.png" class="w-40 h-20">
+            <img src="./Goldmedal Electricals.png" class="w-40 h-20">
+            <img src="./GreatWhite-logo-696x364.png" class="w-40 h-20">
+            <img src="./anchorlogo.png" class="w-40 h-20">
+            <img src="./tata-play-seeklogo.png" class="w-40 h-20">
+            <img src="./Dish-TV-01.jpg" class="w-40 h-20">
+            <img src="./luminous.png" class="w-40 h-20">
+            <img src="./UltraTech Cement.png" class="w-40 h-20">
+            <img src="./jk.jpeg" class="w-40 h-20">
+            <img src="./amba.png" class="w-40 h-20">
+            <img src="./jaibharat.png" class="w-40 h-20">
+            <img src="./quotone.png" class="w-40 h-20">
+            <img src="./roca-vector-logo.png" class="w-40 h-20">
+            <img src="./prismjohnson.jpg" class="w-40 h-20">
+            <img src="./indianoil.png" class="w-40 h-20">
+            <img src="./mrf-seeklogo.png" class="w-40 h-20">
+            <img src="./bridgestone.png" class="w-40 h-20">
+            <img src="./safari.png" class="w-40 h-20">
+            <img src="./samsonite.png" class="w-40 h-20">
+            <img src="./Agilus_Diagnostics_Logo.png" class="w-40 h-20">
+            <img src="./acefour.png" class="w-40 h-20">
+            <img src="./nivia.png" class="w-40 h-20">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+<section id="clients" class="py-16 px-6 bg-white" data-aos="fade-up">
+  <div class="max-w-screen-xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-6">OUR TECHNOLOGY PARTNERS</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 place-items-center bg-white p-8 rounded-lg shadow-lg">
+      <div class="shadow-lg p-4" data-aos="fade-up"><img src="./hplogo.png" class="w-30 h-20 object-contain"></div>
+      <div class="shadow-lg p-4" data-aos="fade-up"><img src="./3m.png" class="w-40 h-20 object-contain"></div>
+      <div class="shadow-lg p-4" data-aos="fade-up"><img src="./lg.png" class="w-40 h-20 object-contain"></div>
+      <div class="shadow-lg p-4" data-aos="fade-up"><img src="./philips.png" class="w-20 h-20 object-contain"></div>
+      <div class="shadow-lg p-4" data-aos="fade-up"><img src="./starflex.png" class="w-40 h-20 object-contain"></div>
+      <div class="shadow-lg p-4" data-aos="fade-up"><img src="./havells.png" class="w-40 h-20 object-contain"></div>
+      <div class="shadow-lg p-4" data-aos="fade-up"><img src="./samsung.png" class="w-40 h-20 object-contain"></div>
+    </div>
+  </div>
+</section>
+
+   
+
+    <section id="contact" class="py-16 px-6 bg-gray-50" data-aos="fade-left">
+      <div class="max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-10">Contact Us</h2>
+        <p>Plot No. 560, Industrial Area, Mohali</p>
+        <p>Phone: 0172-5097163 | Mobile: 9814075926, 9646999282</p>
+        <p>Email: <a href="mailto:surya_adds1980@yahoo.co.in" class="text-orange-600">surya_adds1980@yahoo.co.in</a></p>
+        <div class="mt-6">
+          <form class="grid gap-4 md:grid-cols-2">
+            <input type="text" placeholder="Your Name" class="border p-3 rounded" />
+            <input type="email" placeholder="Your Email" class="border p-3 rounded" />
+            <textarea placeholder="Your Message" class="border p-3 rounded md:col-span-2"></textarea>
+            <button type="submit" class="bg-orange-600 text-white py-2 px-6 rounded hover:bg-orange-700 md:col-span-2">Send Message</button>
+          </form>
+        </div>
+        <div class="mt-10 aspect-w-16 aspect-h-9 w-full">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3431.750316596238!2d76.73344319668091!3d30.66915867119493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fec07c09a88ef%3A0x60fab7172e724471!2sSurya%20adds!5e0!3m2!1sen!2sin!4v1747914926751!5m2!1sen!2sin" width="895" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="bg-gray-100 text-center py-6">
+    <p class="text-sm">&copy; 2025 Surya ADDS. All rights reserved.</p>
+  </footer>
+
+  <script>
+    AOS.init({ duration: 1000 });
+  </script>
+</body>
+</html>
